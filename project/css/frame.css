@@ -1,0 +1,169 @@
+ 
+		 
+		*{margin: 0px;padding: 0px;}
+		img{border: 0px;}
+		ul,li{list-style: none;}
+		h2, h3{text-align: center;}
+		h3{font-size: 18px;}
+		h4{font-size: 14px;}
+		h5{font-size: 12px;}
+		.fr{float: right;}
+		.fl{float: left;}
+		.clear{clear: both;}
+		.btn{text-align: center; border-radius: 5px;}
+		body{ background-color: #f2f2f2;}
+		
+			
+	 
+		.headW{
+			width: 100%;
+			height: 81px;
+			background: #1c8bff;
+			margin-bottom: 30px;}
+		header{
+			position: relative;
+			height: 81px;
+			width: 1000px;
+			margin: 0px auto;}
+		header .login-btn{			   
+			  color: #fff;
+			  width: 63px;
+			  height:30px;
+			  background-color: #1c8bff;
+			  border: 1px solid #fff;
+			  margin: 30px 15px 20px;
+			   
+		 }
+		 header img{position: absolute;left: 0px;}
+		 .head-bottom-bg{
+		 	height: 30px; 
+		    background-color: #525559;  }
+		/****headW end****/
+		footer{width:1000px;height:252px;
+	        border-top:2px solid #1c8bff;
+	        margin:  0px auto; 
+			background-color:#fff;
+			 
+		        }
+		footer a{display: block;float: left; width:317px; }
+		footer a img{padding:73px  30px 45px 65px;height: 118px;}
+		/*****footer end*******/
+		.copyright-bg{background-color: #525559;width: 100%;height: 34px;}
+		.copyright-bg .copyright {width:1000px;margin:0px auto;height: 34px;
+			line-height: 34px;color: #808388 ; }
+		.center{text-align: center;}
+		/******copyright end********/	 
+		/****content begin***/
+		/****content end***/
+        .main{width:992px;margin:0px auto;background-color: #fff;}
+		.content{width: 1000px;margin:0px auto;overflow: hidden;}
+		.content h1{font-weight: bolder;  }
+		.content h1,.content h2{
+			color: #1c8bff;
+		    padding: 30px 0 10px; 
+			 }
+		 
+		.content h1,.content h2 ,.content h4{text-align: center;}
+		 
+		.content .subnavs{
+			width: 1000px;
+			list-style: none;
+			height:55px;
+
+			 }
+		.subnavs li{float: left;  }
+		.subnavs li a {
+			text-decoration: none;
+			display: block;
+			height:55px;
+		    line-height: 55px;
+		     
+		    background-color:#7d8389;
+		    color: #fff;  }
+		 
+
+			.subnavs li a:hover{background-color: #a1a8af;}/*总是凑不够1000px,会有1px 留白，尝试last-child ，ul 背景 未解决*/
+	       .content .title{width: 362px;
+	    	height: 54px;
+	    	border-radius: 54px;/*设置圆角px和box等高就可以实现圆角效果*/
+	    	background-color: #1c8bff;
+			margin: 37px auto;
+			line-height: 54px;
+			color: white;
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+
+	    }
+	   
+	    .introduce .txt{text-align: center;}
+	    .introduce img{width: 155px;margin: 0 auto;display: block;}
+	    .introduce #img-fund{margin-top: 30px;}
+	    .introduce .txt em{font-style:normal;color: #1c8bff;}
+	    /****introduce end***/
+ 
+	    
+		/***form begin***/
+		 form{width: 918px;}
+		 form p{
+         	width: 900px;
+         	margin: 0px auto;
+         	background-color: #efefef;
+         	 
+         	font-size:16px ;
+         	font-weight: bold;
+         	color: #1c8bff;
+			height: 43px;
+			line-height: 43px;
+			 
+			padding-left: 15px;
+			border-radius: 3px;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;			 
+			margin-bottom: 50px;
+			 
+         }
+           label{font-weight: bold;margin-left: 5px;font-size: 12px;}
+           i{font-style: normal;color: #1c8bff;  }
+          
+         input,select{
+         	box-sizing: border-box;
+         	width:317px;
+         	height: 40px;
+         	border: 1px solid #cacaca;
+         	border-radius:3px;
+			-moz-border-radius:3px;
+			-webkit-border-radius:3px;
+			line-height: 40px;
+			margin-top: 10px;
+			margin-bottom: 24px;
+			color: #979797;
+			padding-left: 17px;
+         }
+	 	   textarea{
+	 	 	width: 600px;
+	 	 	margin: 10px auto 25px;
+	 	 	height: 128px;
+	 	 	border: 1px solid #cacaca;
+	 	 	border-radius:3px; 
+	 	 	-moz-border-radius:3px;
+			-webkit-border-radius:3px;
+			padding: 12px 0px 0px 24px;
+			color: #a5a5a5;
+	 	 }
+	 	   input[type="submit"]{
+	 	 	border: none;
+	 	    width: 185px; 
+			padding-left: 0;
+	 	 	height: 45px;
+	 	 	background-color:#1c8bff;
+	 	 	color: #fff;
+	 	 	text-align: center;
+	 	 	border-radius:3px; 
+	 	 	-moz-border-radius:3px;
+			-webkit-border-radius:3px;
+			 
+	 	 }
+	 	 
+
+		/****form end****/

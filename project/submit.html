@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <link rel="stylesheet" type="text/css" href="css/frame.css">
+		<style type="text/css">
+	     .location{ 
+	     	width: 1000px;
+	     	background-color: #fff;
+	        margin: 0px auto;
+	        margin-top: 60px;
+	     	position: relative;  
+	     	 
+	     	margin-bottom: 0px;
+	     	  }/**不明白为什么margin是针对header而言，30像素的margin-top得改成57px**/
+		.location .border-bottom{width:916px;margin:0px auto;border-bottom: 1px solid #d9d9d9; }
+		.location .title{width:160px;font:18px;color: #1c8bff;font-weight: 500;padding: 30px 17px 20px 55px;border-bottom: 1px solid #1c8bff;}
+
+		.location .border-bottom i{font-size:12px;font-style: normal;padding: 30px 22px 0px 0px;color:#686868;}
+		.location a{color: #1c8bff;text-decoration: none;}
+		.location img{padding-bottom: 100px;}
+		 /***form begin**/
+	       form{width: 978px;margin-left: 60px;}
+	       form h2{line-height: 75px;}
+          
+		 /***form end**/
+		</style>
+	</head>
+	<body> 
+	 	<div class="headW">
+	 			<header>
+	 				<div class="login  fr">
+	 					<button class=" btn login-btn">登录</button>
+	 			    </div>
+	 			    <img src="images/logo.png"> 
+	 			</header>
+	 			<div class="head-bottom-bg"></div>
+ 		</div>
+      
+		<div id="serList" class="location clear">
+			<div class="border-bottom"> 
+			<i class="place fr">当前位置：首页 - <a href="#">项目提交</a></i>
+			<div class="title">项目提交</div>
+			</div>
+			  <form>
+			 	<h2>我有项目需要融资</h2>
+			 	<label for="name"><i>*</i>项目名称</label><br/>
+			 	<input type="text" name="name" value="请输入项目名称"><br/>
+			 	<label for="profession"><i>*</i>所在行业</label><br/>
+			 	<select name="profession"> <option value="0">请选择</option> </select>   <br/> <!--未实现请选择默认样式-->
+			 	<label for="url"><i>*</i>项目网站</label><br/>
+			 	<input type="text" name="url" value="请输入项目网址以http(s)开头"><br/>
+			 	<label for="who"><i>*</i>我们是谁？（创始团队背景）</label><br/>
+			 	<textarea name="who"></textarea><br/>
+			 	<label for="how"><i>*</i>我们现在做的怎么样?</label><br/>
+			 	<textarea name="how"></textarea><br/>
+			 	<label for="finance"><i>*</i>融资阶段</label><br/>
+			 	<select name="finance"> <option value="0">请选择</option> </select>  <br/>  <!--未实现请选择默认样式-->
+			 	<label for="scale"><i>*</i>团队规模</label><br/>
+			 	<select name="scale"><option value="0">请选择</option> </select><br/>    <!--未实现请选择默认样式-->
+			 	<label for="income"><i>*</i>最近一年营收</label><br/>
+			 	<select name="income"><option value="0">请选择</option> </select> <br/>   <!--未实现请选择默认样式-->
+			 	<label for="why"><i>*</i>为什么投资我们？（我们的竞争优势、融资后的规划）</label><br/> 
+			 	<textarea name="who"></textarea><br/> 
+			 	<label for="pname"><i>*</i>姓名</label><br/> 
+			 	<input type="text" name="pname" value="请输入您的姓名"><br/> 
+			 	<label for="profession"><i>*</i>职业</label><br/> 
+			 	<input type="text" name="profession" value="请输入您的职业"><br/> 
+			 	<label for="tel"><i>*</i>手机</label><br/> 
+			 	<input type="text" name="tel" value="请输入正确的11位手机号码"><br/> 
+			 	<label for="weixin"><i>*</i>微信</label><br/> 
+			 	<input type="text" name="weixin" value="请输入微信号"><br/> 
+			 	<label for="code"><i>*</i>验证码</label><br/> 
+			 	<input type="text" name="code" value="请输入验证码"><br/> 
+			 	<input type="submit" value="提交"><br/> 
+			 </form>
+		</div>
+ 		 
+		<footer>
+			 <a href="#"><img src="images/product-tips.png"></a>
+		     <a href="#"><img src="images/venue-booking.png"></a>
+		     <a href="#"><img src="images/weixin.png"></a>
+
+		</footer> 
+ 		<div class="copyright-bg clear"> 
+ 			<div class="copyright">版权&copy;归青创空间所有&nbsp;&nbsp;辽备000000</div>
+ 		</div>
+	</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <link rel="stylesheet" type="text/css" href="css/frame.css">
+		<style type="text/css">
+
+	     .location{ 
+	     	width: 1000px;
+	     	background-color: #fff;
+	     	margin: 0px auto;
+	     	margin-top: 60px;
+	     	position: relative;  
+	     	  }/**不明白为什么margin是针对header而言，30像素的margin-top得改成57px**/
+		.location .border-bottom{width:916px;margin:0px auto;border-bottom: 1px solid #d9d9d9;margin-bottom: 45px;}
+		.location .title{width:160px;font:18px;color: #1c8bff;font-weight: 500;padding: 30px 17px 20px 55px;border-bottom: 1px solid #1c8bff;}
+
+		.location i{font-size:12px;font-style: normal;padding: 30px 22px 0px 0px; color：#686868;}
+		.location a{color: #1c8bff;text-decoration: none;}
+	    /***ul begin****/
+	    .location ul{width: 950px;margin: 0px auto;height: 1000px;overflow: hidden;}/**为什么只有限定ul 的高度才能有白色背景**/
+	    .location li{float: left;padding-left: 54px;padding-bottom: 65px;width:260px ;height:153px ; }
+	 	 .vedio{width: 260px;height: 153px;overflow: hidden;}/*** 要想放大图片而不改变盒子大小，就应该对它直接的父元素进行长宽限定，和overflow：hidden;****/
+        .vedio a{display: block;width: 260px;height:153px; position: relative;}
+        .location li .vedio>img{width: 260px;height:153px; }
+      	.vedio a span{
+      		width: 83px;
+	    	height: 83px;
+      		opacity: 0;
+      		display: inline-block;
+      		position: absolute; 
+      		margin-left: 90px;
+	    	 margin-top: -120px;}
+	    .vedio a:hover{transform:scale(1.1);opacity: 0.8; }
+        .vedio a:hover span{
+	    	opacity: 0.8;
+	       -webkit-transition:all .4s ease-in;
+	       -moz-transition:all .4s ease-in;
+	       -ms-transition:all .4s ease-in;
+	        transition:all .4s ease-in; 
+
+    	 }
+	    .vedio-title a{margin-top: 10px;}
+	    /***ul end***/       
+		/*****location end******/
+
+		</style>
+	</head>
+	<body> 
+	 	<div class="headW">
+	 			<header>
+	 				<div class="login  fr">
+	 					<button class=" btn login-btn">登录</button>
+	 			    </div>
+	 			    <img src="images/logo.png"> 
+	 			</header>
+	 			<div class="head-bottom-bg"></div>
+ 		</div>
+        
+		<div id="serList" class="location clear">
+			<div class="border-bottom"> 
+			<i class="place fr">当前位置：首页 - <a href="#">合作伙伴</a></i>
+			<div class="title">合作伙伴</div>
+			</div> 
+			<ul>
+				<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img1.jpg"> 
+						<span><img src="images/play-icon.png" alt="微路演：汽车平台交互HUD"></span> 
+						</a> 
+					</div>
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD</a>
+					</div>
+					 
+				</li>
+				<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img2.jpg"> 
+						<span><img src="images/play-icon.png" alt="微路演：汽车平台交互HUD"></span> 
+						</a>
+					</div>
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD</a>
+					</div>
+					 
+				</li>
+				<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img3.jpg"> 
+						<span><img src="images/play-icon.png" alt="微路演：汽车平台交互HUD"></span> 
+						</a> 
+					</div>
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD</a>
+					</div>
+					 
+				</li>
+				<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img4.jpg" alt="微路演：汽车平台交互HUD"> 
+						<span><img src="images/play-icon.png"></span>
+						</a>  
+					</div> 
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD</a>
+					</div>
+					 
+				</li>
+				<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img5.jpg" alt="微路演：汽车平台交互HUD"> 
+						<span><img src="images/play-icon.png"></span>  
+						</a>
+					</div>
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD</a>
+					</div>
+					 
+				</li>
+				<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img6.jpg" alt="微路演：汽车平台交互HUD"> 
+						<span><img src="images/play-icon.png"></span>  
+						</a>
+					</div>
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD </a>
+					</div>
+					 
+				</li>
+					<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img7.jpg" alt="微路演：汽车平台交互HUD"> 
+						<span><img src="images/play-icon.png"></span>  
+						</a>
+					</div>
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD </a>
+					</div>
+					 
+				</li>
+					<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img8.jpg" alt="微路演：汽车平台交互HUD"> 
+						<span><img src="images/play-icon.png"></span>  
+						</a>
+					</div>
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD </a>
+					</div>
+					 
+				</li>
+					<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img9.jpg" alt="微路演：汽车平台交互HUD"> 
+						<span><img src="images/play-icon.png"></span>  
+						</a>
+					</div>
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD </a>
+					</div>
+					 
+				</li>
+					<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img10.jpg" alt="微路演：汽车平台交互HUD"> 
+						<span><img src="images/play-icon.png"></span>  
+						</a>
+					</div>
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD </a>
+					</div>
+					 
+				</li>
+					<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img11.jpg" alt="微路演：汽车平台交互HUD"> 
+						<span><img src="images/play-icon.png"></span>  
+						</a>
+					</div>
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD </a>
+					</div>
+					 
+				</li>
+					<li>
+					<div class="vedio">
+						<a href="#">
+						<img src="images/play-img12.jpg" alt="微路演：汽车平台交互HUD"> 
+						<span><img src="images/play-icon.png"></span>  
+						</a>
+					</div>
+					<div class="vedio-title">
+						<a href="#">微路演：汽车平台交互HUD </a>
+					</div>
+					 
+				</li>								 
+			</ul>
+				 
+		</div>
+ 		 
+		<footer class="clear">
+			 <a href="#"><img src="images/product-tips.png"></a>
+		     <a href="#"><img src="images/venue-booking.png"></a>
+		     <a href="#"><img src="images/weixin.png"></a>
+
+		</footer> 
+ 		<div class="copyright-bg clear"> 
+ 			<div class="copyright">版权&copy;归青创空间所有&nbsp;&nbsp;辽备000000</div>
+ 		</div>
+	</body>
+</html>
